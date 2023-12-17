@@ -50,7 +50,7 @@ Ayrıca, araçların tüm resimleri ile çalışabilen ve kendi simülasyon orta
 1. Bu [drive linkinden](https://drive.google.com/drive/folders/1cYJgyQQ-R286k2X-mUiFPlsOqs5eet8d?usp=drive_link) ikinci modelimizi indirin.
 2. İndirdiğiniz model dosyasını YOLOModel klasörüne yerleştirin.
 3. detectDamage.py dosyasını açın ve 26. satırdaki model yolu kodunu şu şekilde değiştirin:
-  model_path = os.path.join(current_directory, r'yoloModel\best.pt')
+  + `model_path = os.path.join(current_directory, r'yoloModel\best.pt')`
 4. best.pt adını, indirdiğiniz model dosyasının adıyla değiştirmeyi unutmayın.
 Bu adımları tamamladığınızda, ikinci modelimizi kullanarak hasar tespiti yapabilirsiniz.
 
