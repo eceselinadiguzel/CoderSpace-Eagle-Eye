@@ -35,7 +35,7 @@ Projemiz, herhangi bir Python IDE'sinde (örneğin, PyCharm) kolaylıkla çalı�
 main.py yürütüldüğünde, kullanıcı arayüzü otomatik olarak başlayacak ve hasar tespit sürecini başlatmak için gereken talimatları içerecektir. Arayüz üzerinden hasar görmüş araçların görüntülerini yükleyebilir ve hasar tespitini gerçekleştirebilirsiniz. Sonuçlar, arayüzde görsel işaretlemeler ile birlikte gösterilecektir.
 
 **Notlar:**
-Proje, belirtilen Python sürümü ve bağımlılıklar ile uyumludur. Farklı bir ortamda çalıştırırken uyumluluk sorunları yaşanabilir.
+Proje, belirtilen Python3.9 sürümü ve bağımlılıklar ile uyumludur. Farklı bir ortamda çalıştırırken uyumluluk sorunları yaşanabilir.
 Projenin düzgün çalışması için YoloModel klasöründeki ağırlıkların ve model dosyalarının eksiksiz olduğundan emin olun.
 
 ### Modelimizin Eğitimi
