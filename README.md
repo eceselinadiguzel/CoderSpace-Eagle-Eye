@@ -1,8 +1,8 @@
 # CoderSpace-Eagle-Eye
 
-# AutoHack Car Damage Detection Projesi: Mercedes C180 Ön Kısım Hasar Tespiti
+# CoderSpace: Hack The Insurance Car Damage Detection Projesi: Mercedes C180 Ön Kısım Hasar Tespiti
 ## Proje Genel Bakışı
-"AutoHack" hackathonunda geliştirdiğimiz bu projemiz, Mercedes C180 model araçların ön kısmındaki hasarları tespit etme ve derecelendirme yeteneğine sahiptir. Gelişmiş görüntü işleme teknolojilerini kullanarak, otomotiv endüstrisi için yenilikçi bir çözüm sunmayı amaçlamaktayız. Proje, kodun merkezi olan main.py tarafından yönetilmekte ve ileri düzey görüntü işleme algoritmalarını kullanarak hasar analizi yapmaktadır.
+"CoderSpace: Hack The Insurance" hackathonunda geliştirdiğimiz bu projemiz, Mercedes C180 model araçların ön kısmındaki hasarları tespit etme ve derecelendirme yeteneğine sahiptir. Gelişmiş görüntü işleme teknolojilerini kullanarak, otomotiv endüstrisi için yenilikçi bir çözüm sunmayı amaçlamaktayız. Proje, kodun merkezi olan main.py tarafından yönetilmekte ve ileri düzey görüntü işleme algoritmalarını kullanarak hasar analizi yapmaktadır.
 
 ## Arayüz - carDamageGUI.py
 Projemizin kullanıcı dostu arayüzü carDamageGUI.py dosyasında yer alır. PyQt5 ve Qt Designer'ın güçlü özellikleri sayesinde, kullanıcıların projeyi kolayca etkileşimde bulunabilecekleri bir ortam sağlar. Bu grafik arayüz, hasar tespiti işlemini başlatmak ve sonuçları görüntülemek için intuitif kontrollere sahiptir.
