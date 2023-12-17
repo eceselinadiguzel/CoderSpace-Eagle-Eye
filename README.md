@@ -31,10 +31,10 @@ Projemiz, herhangi bir Python IDE'sinde (örneğin, PyCharm) kolaylıkla çalı�
 + Terminal veya IDE'nin komut satırı aracılığıyla, bağımlılıkları yüklemek için `pip install -r requirements.txt` komutunu çalıştırın.
 + Projeyi çalıştırmak için main.py dosyasını bulun ve yürütün.
 
-**Kullanım**
+**Kullanım:**
 main.py yürütüldüğünde, kullanıcı arayüzü otomatik olarak başlayacak ve hasar tespit sürecini başlatmak için gereken talimatları içerecektir. Arayüz üzerinden hasar görmüş araçların görüntülerini yükleyebilir ve hasar tespitini gerçekleştirebilirsiniz. Sonuçlar, arayüzde görsel işaretlemeler ile birlikte gösterilecektir.
 
-**Notlar**
+**Notlar:**
 Proje, belirtilen Python sürümü ve bağımlılıklar ile uyumludur. Farklı bir ortamda çalıştırırken uyumluluk sorunları yaşanabilir.
 Projenin düzgün çalışması için YoloModel klasöründeki ağırlıkların ve model dosyalarının eksiksiz olduğundan emin olun.
 
@@ -42,7 +42,7 @@ Projenin düzgün çalışması için YoloModel klasöründeki ağırlıkların 
 Modelimiz, hasarlı araçların sadece hasar görmüş bölgeleri üzerinde eğitilmiştir. Yani, hasarlı araçların görüntülerinden hasarlı bölge kesilerek modele eğitim verilmiştir. Bu yaklaşım, modelimizin sadece hasarın kendisine odaklanmasını ve arka planın etkilerini minimize etmesini sağlamıştır. Dolayısıyla, modelimize daha iyi bir sonuç elde etmek için tüm resmi değil, sadece hasarlı bölgenin resmini vermek daha uygundur.
 
 ### İkinci Model ve Kullanımı
-Ayrıca, araçların tüm resimleri ile çalışabilen ve kendi simülasyon ortamımızdan edindiğimiz test görüntüleri ile sorunsuz çalışan ikinci bir model daha eğittik. Bu modeli kullanmak için aşağıdaki adımları izleyin:
+Ayrıca, araçların tüm resimleri ile çalışabilen (hasarlı bölge kesilmeden,resmin tamamı ile) ve kendi simülasyon ortamımızdan edindiğimiz test görüntüleri ile sorunsuz çalışan ikinci bir model daha eğittik. Bu modeli kullanmak için aşağıdaki adımları izleyin:
 
 1. Bu [drive linkinden](https://drive.google.com/drive/folders/1cYJgyQQ-R286k2X-mUiFPlsOqs5eet8d?usp=drive_link) ikinci modelimizi indirin.
 2. İndirdiğiniz model dosyasını YOLOModel klasörüne yerleştirin.
