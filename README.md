@@ -19,9 +19,6 @@ TestImg klasörü, modelimizin performansını değerlendirmek üzere kullanıla
 ## Eğitim Süreci
 Projemizi geliştirirken, simülasyon ortamında Mercedes C180 model aracına 15 derecelik açılarla hasar vererek ve bu hasarları detaylı bir şekilde etiketleyerek modelimizi eğittik. Bu yöntem, modelimizin çeşitli hasar tiplerini ve derecelerini doğru bir şekilde tanıması ve sınıflandırması için kritik bir öneme sahiptir.
 
-## Ekip
-Bu projede ekip adımız Eagle Eye; Doruk Aydoğan, TED Üniversitesi Yazılım Mühendisliği son sınıf öğrencisi; Yücel Çimtay, Dr. Öğr. Üyesi, TED Üniversitesi Bilgisayar Mühendisliği Bölümü öğretim üyesi; ve Ece Selin Adıgüzel, TED Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisi olarak biz, bilgi ve deneyimlerimizi birleştirerek otomotiv endüstrisindeki hasar tespit süreçlerini iyileştirmeyi hedefledik.
-
 ## Kullanım ve Çalıştırma Talimatları
 ### Ön Koşullar
 Bu projeyi çalıştırmak için Python'un yüklü olması gerekmektedir. Ayrıca, projenin bağımlılıklarını yüklemek için gereken requirements.txt dosyası da dahil edilmiştir.
@@ -31,7 +28,7 @@ Projemiz, herhangi bir Python IDE'sinde (örneğin, PyCharm) kolaylıkla çalı�
 
 + Projeyi GitHub'dan indirin ve yerel bilgisayarınıza çıkarın.
 + Tercih ettiğiniz Python IDE'sini açın ve Open veya Import Project seçeneği ile indirdiğiniz projeyi seçin.
-+ Terminal veya IDE'nin komut satırı aracılığıyla, bağımlılıkları yüklemek için pip install -r requirements.txt komutunu çalıştırın.
++ Terminal veya IDE'nin komut satırı aracılığıyla, bağımlılıkları yüklemek için `pip install -r requirements.txt` komutunu çalıştırın.
 + Projeyi çalıştırmak için main.py dosyasını bulun ve yürütün.
 
 **Kullanım**
@@ -53,5 +50,8 @@ Ayrıca, araçların tüm resimleri ile çalışabilen ve kendi simülasyon orta
   + `model_path = os.path.join(current_directory, r'yoloModel\best.pt')`
 4. best.pt adını, indirdiğiniz model dosyasının adıyla değiştirmeyi unutmayın.
 Bu adımları tamamladığınızda, ikinci modelimizi kullanarak hasar tespiti yapabilirsiniz.
+
+## Ekip
+Bu projede ekip adımız Eagle Eye; Doruk Aydoğan, TED Üniversitesi Yazılım Mühendisliği son sınıf öğrencisi; Yücel Çimtay, Dr. Öğr. Üyesi, TED Üniversitesi Bilgisayar Mühendisliği Bölümü öğretim üyesi; ve Ece Selin Adıgüzel, TED Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisi olarak biz, bilgi ve deneyimlerimizi birleştirerek otomotiv endüstrisindeki hasar tespit süreçlerini iyileştirmeyi hedefledik.
 
 Projemizin başarılı bir şekilde geliştirilmesi ve uygulanması için emek veren herkese teşekkürler. GitHub üzerindeki repomuzu ziyaret ederek projemiz hakkında daha fazla bilgi edinebilir, geliştirme sürecimize katkıda bulunabilirsiniz.
